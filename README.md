@@ -21,7 +21,10 @@ ted< it makes me angry.
 Academic Advisor > Which professor do you like the most so far?
 ted< dr. dunham is very nice.
 ```
-**Run**: perl academic.pl
+**Run**: 
+```
+perl academic.pl
+```
 
 # **Decision Tree**
 
@@ -52,5 +55,6 @@ ted< dr. dunham is very nice.
 => Sorry I don't get that 
 ```
 **Run**: This program runs interactively, and prompts the user for questions until the user says "exit"
-
+```
 perl qa-system.pl mylogfile.txt
+```
