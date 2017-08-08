@@ -6,6 +6,21 @@
 
 **Overview**: This is an Eliza program written in Perl. It serves as an academic advisor for college kids. This program tries to engage a dialoge with the user.
 
+**Example**: Below is an example of the system interacting with an user
+```
+Academic Advisor > Hi, I'm an Academic Advisor. What's your name?
+You < ted
+Academic Advisor > Nice to meet you, ted. How's this semester going? Any problems?
+ted< i am failing math.
+Academic Advisor > Please continue.
+ted< i want to drop my math class.
+Academic Advisor > What do you think about it?
+ted< i hate it.
+Academic Advisor > Tell me more.
+ted< it makes me angry.
+Academic Advisor > Which professor do you like the most so far?
+ted< dr. dunham is very nice.
+```
 **Run**: perl academic.pl
 
 # **Decision Tree**
@@ -21,10 +36,21 @@
 **Overview**: This is a Question Answering (QA) system written in Perl. The system is able to answer Who, What, When and Where questions by interacting with Wikipidia.
 
 **Details**:
-The system takes an similar approach to the AskMSR system
+* **Approach** The system takes an similar approach to the AskMSR system
+* **User** The user should ask well formed, fact questions
+* **Record** The system keeps a log file that records the users question, the searches it actually executes, the raw results it obtains from Wikipedia, and finally the answer it generates.
 
-User should ask fact questions and the questions need to be well formed and grammatical
-
+**Example**: Below is an example of the system answering a "When" question
+```
+?> When was Washington born?
+=> Sorry I don't get that
+?> When was George Washington born?
+=>George Washington was Born into the provincial gentry of Colonial Virginia, his family were wealthy planters who owned tobacco plantations and slaves which he inherited.
+?> When was Obama born?
+=>Obama was born on August 4, 1961.
+?> When was Xinru born?
+=> Sorry I don't get that 
+```
 **Run**: This program runs interactively, and prompts the user for questions until the user says "exit"
 
 perl qa-system.pl mylogfile.txt
