@@ -1,0 +1,89 @@
+
+Question :  Who is Zuckerberg
+Correct  : 'Mark Elliot Zuckerberg' is an American computer programmer, Internet entrepreneur, and philanthropist.
+My answer: 'Mark Elliot Zuckerberg' is an American computer programmer, Internet entrepreneur, and philanthropist. (correct)
+
+Question : Who is Obama 
+Correct  : 'Barack Hussein Obama II' is the 44th and current President of the United States, as well as the first African American to hold the office.
+My answer: 'Barack Hussein Obama II' is the 44th and current President of the United States, as well as the first African American to hold the office. (correct)
+
+Question : Who is Bill Clinton
+Correct  : 'William Jefferson Clinton' , commonly known as 'Bill Clinton', is an American politician who served as the 42nd President of the United
+States from 1993 to 21.
+My answer: 'William Jefferson Clinton' , commonly known as 'Bill Clinton', is an American politician who served as the 42nd President of the United States from 1993 to 21. (correct)
+
+Question : Who is Justin Bieber
+My answer: 'Justin Drew Bieber' is a Canadian singer and songwriter.
+My answer: 'Justin Drew Bieber' is a Canadian singer and songwriter.(correct)
+
+Question : Who is Mao Zedong
+Correct  : 'Mao Zedong' , was a Chinese Communist revolutionary and the founding father of the People's Republic of China, which he governed as Chairman of the Communist Party of China from its establishment in 1949 until his death in 1976.
+My answer: 'Mao Zedong' , was a Chinese Communist revolutionary and the founding father of the People's Republic of China, which he governed as Chairman of the Communist Party of China from its establishment in 1949 until his death in 1976. (correct)
+
+Question : Who developed Perl
+Correct  : Perl was developed by Larry Wall.
+My answer: Perl was developed by Larry Wall in 1987 as a general-purpose Unix scripting language to make report processing easier. (sort of correct)
+
+Question : Where is Duluth
+Correct  : 'Duluth' is a seaport city in the U.S. state of Minnesota and the county seat of Saint Louis County.
+My answer: 'Duluth' is a seaport city in the U.S. state of Minnesota and the county seat of Saint Louis County. (correct)
+
+Question : Where is Shanxi
+Correct  : 'Shanhsi' is a province of China, located in the North China region.
+My answer: 'Shanhsi' is a province of China, located in the North China region. (correct)
+
+Question : Where is Germany
+Correct  : 'Germany' is a federal parliamentary republic in western-central Europe.
+My answer: 'Germany' is a federal parliamentary republic in western-central Europe. (correct)
+
+Question : Where is Eiffel Tower
+Correct  : 'Eiffel Tower' is in Paris, France.
+My answer: 'Eiffel Tower' is a wrought iron lattice tower on the Champ de Mars in Paris, France. (sort of correct)
+
+Question : Where did Adidas base
+Correct  : Adidas based in Herzogenaurach, Bavaria, Germany.
+My answer: Adidas based in Herzogenaurach, Bavaria, Germany. (correct)
+
+Question : What is Java
+Correct  : 'Java' is an island of Indonesia.
+My answer: 'Java' is an island of Indonesia. (correct)
+
+Question : What is Java language
+Correct  : 'Java' is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible.
+My answer: 'Java' is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. (correct)
+
+Question : What is Perl
+Correct  : 'Perl' is a family of high-level, general-purpose, interpreted, dynamic programming languages.
+My answer: 'Perl' is a family of high-level, general-purpose, interpreted, dynamic programming languages. (correct)
+
+Question : What is Apple Inc
+Correct  : 'Apple Inc.' is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services.
+My answer: 'Apple Inc.' is an American multinational technology company headquartered in Cupertino, California, that designs, develops, and sells consumer electronics, computer software, and online services. (correct)
+
+Question : What is blue
+Correct  : 'Blue' is the colour between violet and green on the optical spectrum of visible light.
+My answer: 'Blue' is the colour between violet and green on the optical spectrum of visible light. (correct)
+
+Question : What is Computer Science
+Correct  : 'Computer science' is the scientific and practical approach to computation and its applications.
+My answer: 'Computer science' is the scientific and practical approach to computation and its applications. (correct)
+
+Question : When is WW2
+Correct  : WW2 asted from 1939 to 1945, though related conflicts began earlier.
+My answer: 'World Warnbsp;II' , also known as the 'Second World War', was a global war that lasted from 1939 to 1945, though related conflicts began earlier. (sort of correct)
+
+Question : When is WW1
+Correct  : WW1 began on 28 July 1914 and lasted until 11 November 1918.
+My answer: 'World War I' , also known as the 'First World War' or the 'Great War', was a global war centred in Europe that began on 28 July 1914 and lasted until 11 November 1918. (sort of correct)
+
+Question : When was Justin Bieber born
+Correct  : Justin Bieber was born on March 1, 1994.
+My answer: Justin Bieber was born on March 1, 1994. (correct)
+
+Question : When was Zuckerberg born
+Correct  : Zuckerberg was born on May 14, 1984.
+My answer: Zuckerberg was born on May 14, 1984. (correct)
+
+Question : When was Instagram launched
+Correct  : Instagram was launched in October 2010.
+My answer: Instagram was launched in October 2010. (correct)
