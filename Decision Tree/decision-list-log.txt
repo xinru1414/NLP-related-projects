@@ -1,0 +1,909 @@
+Script started on Wed Nov 18 12:52:57 2015
+[?1034hbash-3.2$ exit./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-eval.pl interest-n-key.txt interest-n-answer.txt [C[C[C[C[C[C[C[C[C[C[39Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl interest-n-decision-list.txt interest-n-test.txt > interest-n-answer.txt[C[C[C[C[C[C[C[C[C[C[63Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt
+bash-3.2$ ./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt 
+feature: telephone predict: phone log-likelihood score: 20.7795654758791
+feature: its predict: product log-likelihood score: 20.4169953964944
+feature: on predict: phone log-likelihood score: 19.7795654758791
+feature: access predict: phone log-likelihood score: 19.194602975158
+feature: direct predict: phone log-likelihood score: 18.9315685693242
+feature: introduced predict: product log-likelihood score: 18.6096404744368
+feature: clogged predict: phone log-likelihood score: 18.6096404744368
+feature: more predict: product log-likelihood score: 18.194602975158
+feature: grew predict: phone log-likelihood score: 18.194602975158
+feature: personal predict: product log-likelihood score: 18.194602975158
+feature: frozen predict: product log-likelihood score: 18.194602975158
+feature: service predict: phone log-likelihood score: 18.194602975158
+feature: private predict: phone log-likelihood score: 18.194602975158
+feature: open predict: phone log-likelihood score: 18.194602975158
+feature: The predict: product log-likelihood score: 18.194602975158
+feature: gab predict: phone log-likelihood score: 18.194602975158
+feature: trading predict: phone log-likelihood score: 17.6096404744368
+feature: computer predict: product log-likelihood score: 17.6096404744368
+feature: computers predict: product log-likelihood score: 17.6096404744368
+feature: keep predict: phone log-likelihood score: 17.6096404744368
+feature: customer predict: phone log-likelihood score: 17.6096404744368
+feature: under predict: product log-likelihood score: 17.6096404744368
+feature: product predict: product log-likelihood score: 17.6096404744368
+feature: launch predict: product log-likelihood score: 17.6096404744368
+feature: full predict: product log-likelihood score: 17.6096404744368
+feature: tip predict: phone log-likelihood score: 17.6096404744368
+feature: they predict: phone log-likelihood score: 17.6096404744368
+feature: added predict: phone log-likelihood score: 17.6096404744368
+feature: New predict: phone log-likelihood score: 17.6096404744368
+feature: current predict: product log-likelihood score: 17.6096404744368
+feature: car predict: product log-likelihood score: 17.6096404744368
+feature: it predict: product log-likelihood score: 17.6096404744368
+feature: could predict: product log-likelihood score: 17.6096404744368
+feature: similar predict: product log-likelihood score: 17.6096404744368
+feature: software predict: product log-likelihood score: 17.6096404744368
+feature: increased predict: phone log-likelihood score: 17.6096404744368
+feature: popular predict: product log-likelihood score: 17.6096404744368
+feature: business predict: phone log-likelihood score: 17.6096404744368
+feature: 3 predict: phone log-likelihood score: 17.6096404744368
+feature: million predict: phone log-likelihood score: 17.6096404744368
+feature: 24 predict: phone log-likelihood score: 16.6096404744368
+feature: unsecured predict: phone log-likelihood score: 16.6096404744368
+feature: athletic predict: product log-likelihood score: 16.6096404744368
+feature: Mr predict: phone log-likelihood score: 16.6096404744368
+feature: high predict: product log-likelihood score: 16.6096404744368
+feature: II predict: product log-likelihood score: 16.6096404744368
+feature: hurt predict: product log-likelihood score: 16.6096404744368
+feature: record predict: phone log-likelihood score: 16.6096404744368
+feature: plush predict: product log-likelihood score: 16.6096404744368
+feature: whose predict: phone log-likelihood score: 16.6096404744368
+feature: jewelry predict: product log-likelihood score: 16.6096404744368
+feature: shoe predict: product log-likelihood score: 16.6096404744368
+feature: dedicated predict: phone log-likelihood score: 16.6096404744368
+feature: he predict: phone log-likelihood score: 16.6096404744368
+feature: Crystal predict: product log-likelihood score: 16.6096404744368
+feature: them predict: phone log-likelihood score: 16.6096404744368
+feature: nylon predict: product log-likelihood score: 16.6096404744368
+feature: leaves predict: phone log-likelihood score: 16.6096404744368
+feature: specialized predict: product log-likelihood score: 16.6096404744368
+feature: Smith predict: product log-likelihood score: 16.6096404744368
+feature: fragrance predict: product log-likelihood score: 16.6096404744368
+feature: products predict: product log-likelihood score: 16.6096404744368
+feature: residential predict: phone log-likelihood score: 16.6096404744368
+feature: said predict: phone log-likelihood score: 16.6096404744368
+feature: growth predict: phone log-likelihood score: 16.6096404744368
+feature: tapped predict: phone log-likelihood score: 16.6096404744368
+feature: reasonably predict: product log-likelihood score: 16.6096404744368
+feature: dead predict: phone log-likelihood score: 16.6096404744368
+feature: shedding predict: product log-likelihood score: 16.6096404744368
+feature: produce predict: product log-likelihood score: 16.6096404744368
+feature: markets predict: product log-likelihood score: 16.6096404744368
+feature: precision predict: product log-likelihood score: 16.6096404744368
+feature: acquired predict: product log-likelihood score: 16.6096404744368
+feature: cherubic predict: product log-likelihood score: 16.6096404744368
+feature: auto predict: product log-likelihood score: 16.6096404744368
+feature: deem predict: phone log-likelihood score: 16.6096404744368
+feature: broaden predict: product log-likelihood score: 16.6096404744368
+feature: or predict: phone log-likelihood score: 16.6096404744368
+feature: basic predict: product log-likelihood score: 16.6096404744368
+feature: order predict: phone log-likelihood score: 16.6096404744368
+feature: made predict: product log-likelihood score: 16.6096404744368
+feature: went predict: phone log-likelihood score: 16.6096404744368
+feature: grotesque predict: product log-likelihood score: 16.6096404744368
+feature: used predict: phone log-likelihood score: 16.6096404744368
+feature: dozen predict: phone log-likelihood score: 16.6096404744368
+feature: midpriced predict: product log-likelihood score: 16.6096404744368
+feature: John predict: phone log-likelihood score: 16.6096404744368
+feature: busy predict: phone log-likelihood score: 16.6096404744368
+feature: machines predict: product log-likelihood score: 16.6096404744368
+feature: already predict: product log-likelihood score: 16.6096404744368
+feature: manufacture predict: product log-likelihood score: 16.6096404744368
+feature: Grand predict: product log-likelihood score: 16.6096404744368
+feature: Jaclyn predict: product log-likelihood score: 16.6096404744368
+feature: Limited predict: product log-likelihood score: 16.6096404744368
+feature: might predict: phone log-likelihood score: 16.6096404744368
+feature: read predict: product log-likelihood score: 16.6096404744368
+feature: included predict: product log-likelihood score: 16.6096404744368
+feature: military predict: product log-likelihood score: 16.6096404744368
+feature: chemicals predict: product log-likelihood score: 16.6096404744368
+feature: once predict: phone log-likelihood score: 16.6096404744368
+feature: during predict: phone log-likelihood score: 16.6096404744368
+feature: subscriber predict: phone log-likelihood score: 16.6096404744368
+feature: fetch predict: product log-likelihood score: 16.6096404744368
+feature: year predict: phone log-likelihood score: 16.6096404744368
+feature: appealing predict: phone log-likelihood score: 16.6096404744368
+feature: expected predict: product log-likelihood score: 16.6096404744368
+feature: some predict: product log-likelihood score: 16.6096404744368
+feature: Monteil predict: product log-likelihood score: 16.6096404744368
+feature: 10 predict: phone log-likelihood score: 16.6096404744368
+feature: Kids predict: product log-likelihood score: 16.6096404744368
+feature: Halloween predict: product log-likelihood score: 16.6096404744368
+feature: those predict: product log-likelihood score: 16.6096404744368
+feature: Healthy predict: product log-likelihood score: 16.6096404744368
+feature: charges predict: phone log-likelihood score: 16.6096404744368
+feature: old predict: product log-likelihood score: 16.6096404744368
+feature: party predict: phone log-likelihood score: 16.6096404744368
+feature: draw predict: product log-likelihood score: 16.6096404744368
+feature: maybe predict: phone log-likelihood score: 16.6096404744368
+feature: secure predict: phone log-likelihood score: 16.6096404744368
+feature: supplement predict: product log-likelihood score: 16.6096404744368
+feature: diaper predict: product log-likelihood score: 16.6096404744368
+feature: off predict: phone log-likelihood score: 16.6096404744368
+feature: while predict: phone log-likelihood score: 16.6096404744368
+feature: jockey predict: product log-likelihood score: 16.6096404744368
+feature: Imperial predict: product log-likelihood score: 16.6096404744368
+feature: optometric predict: product log-likelihood score: 16.6096404744368
+feature: you predict: phone log-likelihood score: 16.6096404744368
+feature: coronary predict: product log-likelihood score: 16.6096404744368
+feature: struggling predict: product log-likelihood score: 16.6096404744368
+feature: Carleton predict: product log-likelihood score: 16.6096404744368
+feature: communications predict: phone log-likelihood score: 16.6096404744368
+feature: certain predict: product log-likelihood score: 16.6096404744368
+feature: huge predict: product log-likelihood score: 16.6096404744368
+feature: 6 predict: phone log-likelihood score: 16.6096404744368
+feature: running predict: phone log-likelihood score: 16.6096404744368
+feature: establish predict: product log-likelihood score: 16.6096404744368
+feature: stylish predict: product log-likelihood score: 16.6096404744368
+feature: phone predict: phone log-likelihood score: 16.6096404744368
+feature: survive predict: product log-likelihood score: 16.6096404744368
+feature: see predict: phone log-likelihood score: 16.6096404744368
+feature: testing predict: product log-likelihood score: 16.6096404744368
+feature: says predict: phone log-likelihood score: 16.6096404744368
+feature: Patch predict: product log-likelihood score: 16.6096404744368
+feature: mammography predict: product log-likelihood score: 16.6096404744368
+feature: oversize predict: product log-likelihood score: 16.6096404744368
+feature: capable predict: product log-likelihood score: 16.6096404744368
+feature: 48 predict: phone log-likelihood score: 16.6096404744368
+feature: radio predict: phone log-likelihood score: 16.6096404744368
+feature: Amiga predict: product log-likelihood score: 16.6096404744368
+feature: one predict: phone log-likelihood score: 16.6096404744368
+feature: between predict: phone log-likelihood score: 16.6096404744368
+feature: be predict: phone log-likelihood score: 16.6096404744368
+feature: Japanese predict: product log-likelihood score: 16.6096404744368
+feature: ranging predict: product log-likelihood score: 16.6096404744368
+feature: priced predict: product log-likelihood score: 16.6096404744368
+feature: lucrative predict: product log-likelihood score: 16.6096404744368
+feature: properties predict: product log-likelihood score: 16.6096404744368
+feature: complete predict: product log-likelihood score: 16.6096404744368
+feature: scrapped predict: product log-likelihood score: 16.6096404744368
+feature: George predict: product log-likelihood score: 16.6096404744368
+feature: all predict: phone log-likelihood score: 16.6096404744368
+feature: exclusive predict: product log-likelihood score: 16.6096404744368
+feature: swore predict: phone log-likelihood score: 16.6096404744368
+feature: furniture predict: product log-likelihood score: 16.6096404744368
+feature: Kraft predict: product log-likelihood score: 16.6096404744368
+feature: Chevrolet predict: product log-likelihood score: 16.6096404744368
+feature: jumped predict: phone log-likelihood score: 16.6096404744368
+feature: trucks predict: product log-likelihood score: 16.6096404744368
+feature: marketing predict: product log-likelihood score: 16.6096404744368
+feature: 1985 predict: product log-likelihood score: 16.6096404744368
+feature: spread predict: phone log-likelihood score: 16.6096404744368
+feature: continue predict: product log-likelihood score: 16.6096404744368
+feature: R1 predict: product log-likelihood score: 16.6096404744368
+feature: mainframes predict: product log-likelihood score: 16.6096404744368
+feature: Would predict: phone log-likelihood score: 16.6096404744368
+feature: women predict: product log-likelihood score: 16.6096404744368
+feature: Atlas predict: product log-likelihood score: 16.6096404744368
+feature: Prix predict: product log-likelihood score: 16.6096404744368
+feature: offering predict: product log-likelihood score: 16.6096404744368
+feature: will predict: product log-likelihood score: 16.6096404744368
+feature: Green predict: product log-likelihood score: 16.6096404744368
+feature: perhaps predict: product log-likelihood score: 16.6096404744368
+feature: clothing predict: product log-likelihood score: 16.6096404744368
+feature: filter predict: product log-likelihood score: 16.6096404744368
+feature: Choice predict: product log-likelihood score: 16.6096404744368
+feature: Spectrum predict: product log-likelihood score: 16.6096404744368
+feature: up predict: phone log-likelihood score: 16.6096404744368
+feature: shoes predict: product log-likelihood score: 16.6096404744368
+feature: extending predict: phone log-likelihood score: 16.6096404744368
+feature: lost predict: phone log-likelihood score: 16.6096404744368
+feature: minicomputers predict: product log-likelihood score: 16.6096404744368
+feature: Millionaire predict: phone log-likelihood score: 16.6096404744368
+feature: VAX predict: product log-likelihood score: 16.6096404744368
+feature: public predict: phone log-likelihood score: 16.6096404744368
+feature: deluxe predict: product log-likelihood score: 16.6096404744368
+feature: involving predict: product log-likelihood score: 16.6096404744368
+feature: Lanterns predict: product log-likelihood score: 16.6096404744368
+feature: While predict: product log-likelihood score: 16.6096404744368
+feature: recently predict: phone log-likelihood score: 16.6096404744368
+feature: initial predict: product log-likelihood score: 16.6096404744368
+feature: Oh predict: product log-likelihood score: 16.6096404744368
+feature: declined predict: product log-likelihood score: 16.6096404744368
+feature: Dec predict: product log-likelihood score: 16.6096404744368
+feature: cracker predict: product log-likelihood score: 16.6096404744368
+feature: General predict: product log-likelihood score: 16.6096404744368
+feature: renting predict: phone log-likelihood score: 16.6096404744368
+feature: caused predict: phone log-likelihood score: 16.6096404744368
+feature: mid predict: product log-likelihood score: 16.6096404744368
+feature: investment predict: phone log-likelihood score: 16.6096404744368
+feature: building predict: product log-likelihood score: 16.6096404744368
+feature: if predict: phone log-likelihood score: 16.6096404744368
+feature: luxury predict: product log-likelihood score: 16.6096404744368
+feature: integrated predict: product log-likelihood score: 16.6096404744368
+feature: equipment predict: product log-likelihood score: 16.6096404744368
+feature: truck predict: product log-likelihood score: 16.6096404744368
+feature: midrange predict: product log-likelihood score: 16.6096404744368
+feature: installed predict: phone log-likelihood score: 16.6096404744368
+feature: such predict: product log-likelihood score: 16.6096404744368
+feature: information predict: phone log-likelihood score: 16.6096404744368
+feature: about predict: phone log-likelihood score: 16.6096404744368
+feature: four predict: phone log-likelihood score: 16.6096404744368
+feature: sellers predict: product log-likelihood score: 16.6096404744368
+feature: York predict: phone log-likelihood score: 16.6096404744368
+feature: pacing predict: product log-likelihood score: 16.6096404744368
+feature: Wall predict: phone log-likelihood score: 16.6096404744368
+feature: upscale predict: product log-likelihood score: 16.6096404744368
+feature: children predict: phone log-likelihood score: 16.6096404744368
+feature: adult predict: product log-likelihood score: 16.6096404744368
+feature: tried predict: product log-likelihood score: 16.6096404744368
+feature: well predict: product log-likelihood score: 16.6096404744368
+feature: Clarion predict: product log-likelihood score: 16.6096404744368
+feature: using predict: phone log-likelihood score: 16.6096404744368
+feature: tie predict: phone log-likelihood score: 16.6096404744368
+feature: men predict: product log-likelihood score: 16.6096404744368
+feature: stock predict: product log-likelihood score: 16.6096404744368
+feature: Hospital predict: phone log-likelihood score: 16.6096404744368
+feature: create predict: product log-likelihood score: 16.6096404744368
+feature: food predict: product log-likelihood score: 16.6096404744368
+feature: jeans predict: product log-likelihood score: 16.6096404744368
+feature: light predict: phone log-likelihood score: 16.6096404744368
+feature: Montana predict: product log-likelihood score: 16.6096404744368
+feature: called predict: product log-likelihood score: 16.6096404744368
+feature: their predict: phone log-likelihood score: 16.6096404744368
+feature: produces predict: product log-likelihood score: 16.6096404744368
+feature: last predict: phone log-likelihood score: 16.6096404744368
+feature: beds predict: product log-likelihood score: 16.6096404744368
+feature: sex predict: phone log-likelihood score: 16.6096404744368
+feature: Noxell predict: product log-likelihood score: 16.6096404744368
+feature: Zytel predict: product log-likelihood score: 16.6096404744368
+feature: excavation predict: product log-likelihood score: 16.6096404744368
+feature: Lexus predict: product log-likelihood score: 16.6096404744368
+feature: a predict: product log-likelihood score: 2.76553474636298
+feature: of predict: product log-likelihood score: 2.65207669657969
+feature: from predict: product log-likelihood score: 2.32192809488736
+feature: to predict: phone log-likelihood score: 2.22239242133645
+feature: was predict: phone log-likelihood score: 2
+feature: new predict: product log-likelihood score: 1.73696559416621
+feature: is predict: product log-likelihood score: 1.58496250072116
+feature: that predict: phone log-likelihood score: 1.58496250072116
+feature: the predict: phone log-likelihood score: 1.13750352374993
+feature: through predict: product log-likelihood score: 1
+feature: been predict: product log-likelihood score: 1
+feature: have predict: product log-likelihood score: 1
+feature: just predict: product log-likelihood score: 1
+feature: for predict: phone log-likelihood score: 1
+feature: three predict: product log-likelihood score: 1
+feature: because predict: product log-likelihood score: 1
+feature: into predict: product log-likelihood score: 1
+feature: has predict: product log-likelihood score: 1
+feature: an predict: phone log-likelihood score: 1
+feature: were predict: phone log-likelihood score: 0.584962500721156
+feature: in predict: phone log-likelihood score: 0.415037499278844
+feature: by predict: product log-likelihood score: 0.415037499278844
+feature: and predict: phone log-likelihood score: 0.125530882083859
+feature: NONE predict: product log-likelihood score: NONE
+bash-3.2$ cat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt
+bash-3.2$ ./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+how many in: 126
+how many out:126
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+senseid="phone"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="product"
+senseid="phone"
+bash-3.2$ cat line-answer.txt [C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt 
+         phone product
+phone    25        47    
+product    6        48    
+Total assigned: 126
+Correctly assigned: 73
+Accuracy: 0.579365079365079
+bash-3.2$ ./decision-list-eval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt
+bash-3.2$ ./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-eval.pl interest-n-key.txt interest-n-answer.txt [C[C[C[C[C[C[C[C[C[C[39Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl interest-n-decision-list.txt interest-n-test.txt > interest-n-answer.txt
+bash-3.2$ ./decision-list-test.pl interest-n-decision-list.txt interest-n-test.txt > interest-n-answer.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Prain.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt 
+feature: rates predict: interest_6 log-likelihood score: 22.4169953964944
+feature: rate predict: interest_6 log-likelihood score: 20.8575679878804
+feature: short predict: interest_5 log-likelihood score: 20.7795654758791
+feature: minority predict: interest_5 log-likelihood score: 20.0690720930741
+feature: equity predict: interest_5 log-likelihood score: 19.9315685693242
+feature: lower predict: interest_6 log-likelihood score: 19.7795654758791
+feature: payments predict: interest_6 log-likelihood score: 19.7795654758791
+feature: annual predict: interest_6 log-likelihood score: 19.4169953964944
+feature: higher predict: interest_6 log-likelihood score: 19.4169953964944
+feature: company predict: interest_5 log-likelihood score: 19.4169953964944
+feature: by predict: interest_6 log-likelihood score: 19.194602975158
+feature: foreign predict: interest_6 log-likelihood score: 18.9315685693242
+feature: below predict: interest_6 log-likelihood score: 18.9315685693242
+feature: open predict: interest_5 log-likelihood score: 18.6096404744368
+feature: at predict: interest_6 log-likelihood score: 18.6096404744368
+feature: majority predict: interest_5 log-likelihood score: 18.6096404744368
+feature: before predict: interest_5 log-likelihood score: 18.6096404744368
+feature: current predict: interest_6 log-likelihood score: 18.6096404744368
+feature: controlling predict: interest_5 log-likelihood score: 18.6096404744368
+feature: since predict: interest_6 log-likelihood score: 18.194602975158
+feature: cut predict: interest_6 log-likelihood score: 18.194602975158
+feature: drop predict: interest_6 log-likelihood score: 18.194602975158
+feature: manufacturing predict: interest_5 log-likelihood score: 18.194602975158
+feature: over predict: interest_6 log-likelihood score: 18.194602975158
+feature: certain predict: interest_5 log-likelihood score: 18.194602975158
+feature: down predict: interest_6 log-likelihood score: 18.194602975158
+feature: all predict: interest_6 log-likelihood score: 18.194602975158
+feature: sold predict: interest_5 log-likelihood score: 18.194602975158
+feature: board predict: interest_5 log-likelihood score: 18.194602975158
+feature: market predict: interest_6 log-likelihood score: 18.194602975158
+feature: expenses predict: interest_6 log-likelihood score: 18.194602975158
+feature: bonds predict: interest_6 log-likelihood score: 17.6096404744368
+feature: bear predict: interest_6 log-likelihood score: 17.6096404744368
+feature: cellular predict: interest_5 log-likelihood score: 17.6096404744368
+feature: when predict: interest_6 log-likelihood score: 17.6096404744368
+feature: let predict: interest_6 log-likelihood score: 17.6096404744368
+feature: this predict: interest_6 log-likelihood score: 17.6096404744368
+feature: his predict: interest_5 log-likelihood score: 17.6096404744368
+feature: resulting predict: interest_6 log-likelihood score: 17.6096404744368
+feature: large predict: interest_5 log-likelihood score: 17.6096404744368
+feature: rise predict: interest_6 log-likelihood score: 17.6096404744368
+feature: european predict: interest_6 log-likelihood score: 17.6096404744368
+feature: real predict: interest_5 log-likelihood score: 17.6096404744368
+feature: copper predict: interest_5 log-likelihood score: 17.6096404744368
+feature: effective predict: interest_5 log-likelihood score: 17.6096404744368
+feature: accrued predict: interest_6 log-likelihood score: 17.6096404744368
+feature: key predict: interest_6 log-likelihood score: 17.6096404744368
+feature: income predict: interest_6 log-likelihood score: 17.6096404744368
+feature: also predict: interest_5 log-likelihood score: 17.6096404744368
+feature: taxes predict: interest_6 log-likelihood score: 17.6096404744368
+feature: harley predict: interest_5 log-likelihood score: 17.6096404744368
+feature: rising predict: interest_6 log-likelihood score: 17.6096404744368
+feature: earned predict: interest_6 log-likelihood score: 17.6096404744368
+feature: solid predict: interest_5 log-likelihood score: 17.6096404744368
+feature: pay predict: interest_6 log-likelihood score: 17.6096404744368
+feature: ratio predict: interest_5 log-likelihood score: 17.6096404744368
+feature: high predict: interest_6 log-likelihood score: 17.6096404744368
+feature: make predict: interest_6 log-likelihood score: 17.6096404744368
+feature: unrelated predict: interest_6 log-likelihood score: 17.6096404744368
+feature: bring predict: interest_6 log-likelihood score: 17.6096404744368
+feature: 5 predict: interest_6 log-likelihood score: 17.6096404744368
+feature: cost predict: interest_6 log-likelihood score: 17.6096404744368
+feature: costs predict: interest_6 log-likelihood score: 17.6096404744368
+feature: principal predict: interest_6 log-likelihood score: 17.6096404744368
+feature: business predict: interest_5 log-likelihood score: 17.6096404744368
+feature: sell predict: interest_5 log-likelihood score: 17.6096404744368
+feature: fall predict: interest_6 log-likelihood score: 17.6096404744368
+feature: oil predict: interest_5 log-likelihood score: 17.6096404744368
+feature: volume predict: interest_5 log-likelihood score: 17.6096404744368
+feature: acquired predict: interest_5 log-likelihood score: 17.6096404744368
+feature: average predict: interest_6 log-likelihood score: 17.6096404744368
+feature: sept predict: interest_5 log-likelihood score: 16.6096404744368
+feature: parisian predict: interest_5 log-likelihood score: 16.6096404744368
+feature: think predict: interest_6 log-likelihood score: 16.6096404744368
+feature: push predict: interest_6 log-likelihood score: 16.6096404744368
+feature: justify predict: interest_6 log-likelihood score: 16.6096404744368
+feature: figures predict: interest_5 log-likelihood score: 16.6096404744368
+feature: cycles predict: interest_6 log-likelihood score: 16.6096404744368
+feature: federal predict: interest_6 log-likelihood score: 16.6096404744368
+feature: making predict: interest_6 log-likelihood score: 16.6096404744368
+feature: 105 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: some predict: interest_5 log-likelihood score: 16.6096404744368
+feature: unpaid predict: interest_6 log-likelihood score: 16.6096404744368
+feature: television predict: interest_5 log-likelihood score: 16.6096404744368
+feature: healthy predict: interest_5 log-likelihood score: 16.6096404744368
+feature: drive predict: interest_6 log-likelihood score: 16.6096404744368
+feature: steel predict: interest_5 log-likelihood score: 16.6096404744368
+feature: reduced predict: interest_5 log-likelihood score: 16.6096404744368
+feature: amex predict: interest_5 log-likelihood score: 16.6096404744368
+feature: next predict: interest_6 log-likelihood score: 16.6096404744368
+feature: bullish predict: interest_5 log-likelihood score: 16.6096404744368
+feature: sale predict: interest_5 log-likelihood score: 16.6096404744368
+feature: paid predict: interest_6 log-likelihood score: 16.6096404744368
+feature: companies predict: interest_5 log-likelihood score: 16.6096404744368
+feature: associated predict: interest_6 log-likelihood score: 16.6096404744368
+feature: video predict: interest_5 log-likelihood score: 16.6096404744368
+feature: trading predict: interest_5 log-likelihood score: 16.6096404744368
+feature: owed predict: interest_6 log-likelihood score: 16.6096404744368
+feature: swap predict: interest_6 log-likelihood score: 16.6096404744368
+feature: 36 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: if predict: interest_6 log-likelihood score: 16.6096404744368
+feature: meeting predict: interest_6 log-likelihood score: 16.6096404744368
+feature: cement predict: interest_5 log-likelihood score: 16.6096404744368
+feature: 4 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: included predict: interest_5 log-likelihood score: 16.6096404744368
+feature: fees predict: interest_6 log-likelihood score: 16.6096404744368
+feature: was predict: interest_5 log-likelihood score: 16.6096404744368
+feature: fell predict: interest_5 log-likelihood score: 16.6096404744368
+feature: electronics predict: interest_5 log-likelihood score: 16.6096404744368
+feature: slid predict: interest_5 log-likelihood score: 16.6096404744368
+feature: 2 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: reported predict: interest_5 log-likelihood score: 16.6096404744368
+feature: fraudulent predict: interest_6 log-likelihood score: 16.6096404744368
+feature: then predict: interest_6 log-likelihood score: 16.6096404744368
+feature: swaps predict: interest_6 log-likelihood score: 16.6096404744368
+feature: unit predict: interest_5 log-likelihood score: 16.6096404744368
+feature: paying predict: interest_6 log-likelihood score: 16.6096404744368
+feature: whose predict: interest_5 log-likelihood score: 16.6096404744368
+feature: payment predict: interest_6 log-likelihood score: 16.6096404744368
+feature: indirect predict: interest_5 log-likelihood score: 16.6096404744368
+feature: hope predict: interest_6 log-likelihood score: 16.6096404744368
+feature: separate predict: interest_6 log-likelihood score: 16.6096404744368
+feature: businesses predict: interest_5 log-likelihood score: 16.6096404744368
+feature: obligations predict: interest_6 log-likelihood score: 16.6096404744368
+feature: now predict: interest_6 log-likelihood score: 16.6096404744368
+feature: aggregates predict: interest_6 log-likelihood score: 16.6096404744368
+feature: otc predict: interest_5 log-likelihood score: 16.6096404744368
+feature: voting predict: interest_5 log-likelihood score: 16.6096404744368
+feature: abs predict: interest_5 log-likelihood score: 16.6096404744368
+feature: represent predict: interest_5 log-likelihood score: 16.6096404744368
+feature: deduction predict: interest_6 log-likelihood score: 16.6096404744368
+feature: primarily predict: interest_5 log-likelihood score: 16.6096404744368
+feature: gas predict: interest_5 log-likelihood score: 16.6096404744368
+feature: agencies predict: interest_5 log-likelihood score: 16.6096404744368
+feature: olivetti predict: interest_5 log-likelihood score: 16.6096404744368
+feature: eventually predict: interest_6 log-likelihood score: 16.6096404744368
+feature: suspended predict: interest_6 log-likelihood score: 16.6096404744368
+feature: already predict: interest_5 log-likelihood score: 16.6096404744368
+feature: hit predict: interest_5 log-likelihood score: 16.6096404744368
+feature: it predict: interest_5 log-likelihood score: 16.6096404744368
+feature: insurance predict: interest_5 log-likelihood score: 16.6096404744368
+feature: saudi predict: interest_5 log-likelihood score: 16.6096404744368
+feature: prompted predict: interest_6 log-likelihood score: 16.6096404744368
+feature: financial predict: interest_5 log-likelihood score: 16.6096404744368
+feature: these predict: interest_6 log-likelihood score: 16.6096404744368
+feature: he predict: interest_5 log-likelihood score: 16.6096404744368
+feature: december predict: interest_5 log-likelihood score: 16.6096404744368
+feature: falling predict: interest_6 log-likelihood score: 16.6096404744368
+feature: our predict: interest_6 log-likelihood score: 16.6096404744368
+feature: spread predict: interest_6 log-likelihood score: 16.6096404744368
+feature: funds predict: interest_6 log-likelihood score: 16.6096404744368
+feature: time predict: interest_6 log-likelihood score: 16.6096404744368
+feature: prices predict: interest_6 log-likelihood score: 16.6096404744368
+feature: currently predict: interest_6 log-likelihood score: 16.6096404744368
+feature: earn predict: interest_6 log-likelihood score: 16.6096404744368
+feature: hcs predict: interest_5 log-likelihood score: 16.6096404744368
+feature: not predict: interest_6 log-likelihood score: 16.6096404744368
+feature: every predict: interest_6 log-likelihood score: 16.6096404744368
+feature: remaining predict: interest_5 log-likelihood score: 16.6096404744368
+feature: during predict: interest_6 log-likelihood score: 16.6096404744368
+feature: industrial predict: interest_5 log-likelihood score: 16.6096404744368
+feature: maturity predict: interest_6 log-likelihood score: 16.6096404744368
+feature: so predict: interest_5 log-likelihood score: 16.6096404744368
+feature: statistics predict: interest_5 log-likelihood score: 16.6096404744368
+feature: restaurants predict: interest_5 log-likelihood score: 16.6096404744368
+feature: further predict: interest_6 log-likelihood score: 16.6096404744368
+feature: sent predict: interest_6 log-likelihood score: 16.6096404744368
+feature: deductions predict: interest_6 log-likelihood score: 16.6096404744368
+feature: publishing predict: interest_5 log-likelihood score: 16.6096404744368
+feature: coating predict: interest_5 log-likelihood score: 16.6096404744368
+feature: partnership predict: interest_5 log-likelihood score: 16.6096404744368
+feature: nudging predict: interest_6 log-likelihood score: 16.6096404744368
+feature: move predict: interest_6 log-likelihood score: 16.6096404744368
+feature: newsprint predict: interest_5 log-likelihood score: 16.6096404744368
+feature: can predict: interest_6 log-likelihood score: 16.6096404744368
+feature: process predict: interest_5 log-likelihood score: 16.6096404744368
+feature: telephone predict: interest_5 log-likelihood score: 16.6096404744368
+feature: giant predict: interest_5 log-likelihood score: 16.6096404744368
+feature: semiannual predict: interest_6 log-likelihood score: 16.6096404744368
+feature: leader predict: interest_5 log-likelihood score: 16.6096404744368
+feature: creating predict: interest_6 log-likelihood score: 16.6096404744368
+feature: expense predict: interest_6 log-likelihood score: 16.6096404744368
+feature: increases predict: interest_6 log-likelihood score: 16.6096404744368
+feature: believes predict: interest_6 log-likelihood score: 16.6096404744368
+feature: between predict: interest_5 log-likelihood score: 16.6096404744368
+feature: environment predict: interest_6 log-likelihood score: 16.6096404744368
+feature: debt predict: interest_6 log-likelihood score: 16.6096404744368
+feature: involving predict: interest_6 log-likelihood score: 16.6096404744368
+feature: options predict: interest_6 log-likelihood score: 16.6096404744368
+feature: adobe predict: interest_5 log-likelihood score: 16.6096404744368
+feature: unsecured predict: interest_6 log-likelihood score: 16.6096404744368
+feature: lowered predict: interest_6 log-likelihood score: 16.6096404744368
+feature: shortfalls predict: interest_6 log-likelihood score: 16.6096404744368
+feature: generally predict: interest_6 log-likelihood score: 16.6096404744368
+feature: only predict: interest_5 log-likelihood score: 16.6096404744368
+feature: represents predict: interest_5 log-likelihood score: 16.6096404744368
+feature: half predict: interest_5 log-likelihood score: 16.6096404744368
+feature: once predict: interest_6 log-likelihood score: 16.6096404744368
+feature: fashion predict: interest_5 log-likelihood score: 16.6096404744368
+feature: result predict: interest_5 log-likelihood score: 16.6096404744368
+feature: lowering predict: interest_6 log-likelihood score: 16.6096404744368
+feature: posting predict: interest_6 log-likelihood score: 16.6096404744368
+feature: 18 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: cash predict: interest_6 log-likelihood score: 16.6096404744368
+feature: concerning predict: interest_5 log-likelihood score: 16.6096404744368
+feature: bill predict: interest_6 log-likelihood score: 16.6096404744368
+feature: broader predict: interest_5 log-likelihood score: 16.6096404744368
+feature: consolidate predict: interest_6 log-likelihood score: 16.6096404744368
+feature: west predict: interest_6 log-likelihood score: 16.6096404744368
+feature: software predict: interest_5 log-likelihood score: 16.6096404744368
+feature: grafil predict: interest_5 log-likelihood score: 16.6096404744368
+feature: korean predict: interest_5 log-likelihood score: 16.6096404744368
+feature: about predict: interest_5 log-likelihood score: 16.6096404744368
+feature: bell predict: interest_5 log-likelihood score: 16.6096404744368
+feature: speculation predict: interest_5 log-likelihood score: 16.6096404744368
+feature: showtime predict: interest_5 log-likelihood score: 16.6096404744368
+feature: MGMNP predict: interest_5 log-likelihood score: 16.6096404744368
+feature: 1988 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: dividends predict: interest_6 log-likelihood score: 16.6096404744368
+feature: healthvest predict: interest_5 log-likelihood score: 16.6096404744368
+feature: slipped predict: interest_5 log-likelihood score: 16.6096404744368
+feature: quantum predict: interest_5 log-likelihood score: 16.6096404744368
+feature: biggest predict: interest_5 log-likelihood score: 16.6096404744368
+feature: trough predict: interest_6 log-likelihood score: 16.6096404744368
+feature: substantial predict: interest_5 log-likelihood score: 16.6096404744368
+feature: 70 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: extensive predict: interest_5 log-likelihood score: 16.6096404744368
+feature: quarter predict: interest_6 log-likelihood score: 16.6096404744368
+feature: because predict: interest_5 log-likelihood score: 16.6096404744368
+feature: uncertainty predict: interest_6 log-likelihood score: 16.6096404744368
+feature: cooker predict: interest_5 log-likelihood score: 16.6096404744368
+feature: holds predict: interest_5 log-likelihood score: 16.6096404744368
+feature: acquire predict: interest_5 log-likelihood score: 16.6096404744368
+feature: significantly predict: interest_6 log-likelihood score: 16.6096404744368
+feature: there predict: interest_5 log-likelihood score: 16.6096404744368
+feature: electronic predict: interest_5 log-likelihood score: 16.6096404744368
+feature: conglomerate predict: interest_5 log-likelihood score: 16.6096404744368
+feature: while predict: interest_5 log-likelihood score: 16.6096404744368
+feature: fast predict: interest_6 log-likelihood score: 16.6096404744368
+feature: widespread predict: interest_5 log-likelihood score: 16.6096404744368
+feature: ecuador predict: interest_5 log-likelihood score: 16.6096404744368
+feature: north predict: interest_5 log-likelihood score: 16.6096404744368
+feature: sum predict: interest_6 log-likelihood score: 16.6096404744368
+feature: through predict: interest_6 log-likelihood score: 16.6096404744368
+feature: china predict: interest_5 log-likelihood score: 16.6096404744368
+feature: prescription predict: interest_5 log-likelihood score: 16.6096404744368
+feature: depreciation predict: interest_6 log-likelihood score: 16.6096404744368
+feature: you predict: interest_6 log-likelihood score: 16.6096404744368
+feature: expected predict: interest_6 log-likelihood score: 16.6096404744368
+feature: nor predict: interest_6 log-likelihood score: 16.6096404744368
+feature: eds predict: interest_5 log-likelihood score: 16.6096404744368
+feature: purchase predict: interest_5 log-likelihood score: 16.6096404744368
+feature: tax predict: interest_6 log-likelihood score: 16.6096404744368
+feature: began predict: interest_6 log-likelihood score: 16.6096404744368
+feature: sheller predict: interest_5 log-likelihood score: 16.6096404744368
+feature: divided predict: interest_5 log-likelihood score: 16.6096404744368
+feature: true predict: interest_6 log-likelihood score: 16.6096404744368
+feature: meet predict: interest_6 log-likelihood score: 16.6096404744368
+feature: hardest predict: interest_5 log-likelihood score: 16.6096404744368
+feature: made predict: interest_6 log-likelihood score: 16.6096404744368
+feature: buy predict: interest_5 log-likelihood score: 16.6096404744368
+feature: extra predict: interest_6 log-likelihood score: 16.6096404744368
+feature: artra predict: interest_5 log-likelihood score: 16.6096404744368
+feature: german predict: interest_6 log-likelihood score: 16.6096404744368
+feature: 1 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: program predict: interest_6 log-likelihood score: 16.6096404744368
+feature: earlier predict: interest_6 log-likelihood score: 16.6096404744368
+feature: charges predict: interest_6 log-likelihood score: 16.6096404744368
+feature: bank predict: interest_5 log-likelihood score: 16.6096404744368
+feature: october predict: interest_5 log-likelihood score: 16.6096404744368
+feature: richfield predict: interest_5 log-likelihood score: 16.6096404744368
+feature: envision predict: interest_6 log-likelihood score: 16.6096404744368
+feature: diluted predict: interest_5 log-likelihood score: 16.6096404744368
+feature: lockheed predict: interest_5 log-likelihood score: 16.6096404744368
+feature: five predict: interest_5 log-likelihood score: 16.6096404744368
+feature: mitsubishi predict: interest_5 log-likelihood score: 16.6096404744368
+feature: freeing predict: interest_6 log-likelihood score: 16.6096404744368
+feature: purchased predict: interest_5 log-likelihood score: 16.6096404744368
+feature: whether predict: interest_6 log-likelihood score: 16.6096404744368
+feature: could predict: interest_6 log-likelihood score: 16.6096404744368
+feature: indicates predict: interest_5 log-likelihood score: 16.6096404744368
+feature: bellsouth predict: interest_5 log-likelihood score: 16.6096404744368
+feature: including predict: interest_6 log-likelihood score: 16.6096404744368
+feature: three predict: interest_5 log-likelihood score: 16.6096404744368
+feature: paramount predict: interest_5 log-likelihood score: 16.6096404744368
+feature: deliverable predict: interest_5 log-likelihood score: 16.6096404744368
+feature: regarding predict: interest_6 log-likelihood score: 16.6096404744368
+feature: net predict: interest_6 log-likelihood score: 16.6096404744368
+feature: total predict: interest_5 log-likelihood score: 16.6096404744368
+feature: itt predict: interest_5 log-likelihood score: 16.6096404744368
+feature: should predict: interest_6 log-likelihood score: 16.6096404744368
+feature: 15 predict: interest_5 log-likelihood score: 16.6096404744368
+feature: sharply predict: interest_6 log-likelihood score: 16.6096404744368
+feature: any predict: interest_5 log-likelihood score: 16.6096404744368
+feature: owners predict: interest_5 log-likelihood score: 16.6096404744368
+feature: due predict: interest_6 log-likelihood score: 16.6096404744368
+feature: heavy predict: interest_6 log-likelihood score: 16.6096404744368
+feature: worries predict: interest_6 log-likelihood score: 16.6096404744368
+feature: nervousness predict: interest_6 log-likelihood score: 16.6096404744368
+feature: exchange predict: interest_6 log-likelihood score: 16.6096404744368
+feature: combined predict: interest_5 log-likelihood score: 16.6096404744368
+feature: dividend predict: interest_5 log-likelihood score: 16.6096404744368
+feature: commercial predict: interest_5 log-likelihood score: 16.6096404744368
+feature: instruments predict: interest_6 log-likelihood score: 16.6096404744368
+feature: airways predict: interest_5 log-likelihood score: 16.6096404744368
+feature: clearly predict: interest_6 log-likelihood score: 16.6096404744368
+feature: another predict: interest_5 log-likelihood score: 16.6096404744368
+feature: music predict: interest_5 log-likelihood score: 16.6096404744368
+feature: where predict: interest_5 log-likelihood score: 16.6096404744368
+feature: billion predict: interest_6 log-likelihood score: 16.6096404744368
+feature: odds predict: interest_6 log-likelihood score: 16.6096404744368
+feature: mortgage predict: interest_6 log-likelihood score: 16.6096404744368
+feature: home predict: interest_5 log-likelihood score: 16.6096404744368
+feature: equivalent predict: interest_5 log-likelihood score: 16.6096404744368
+feature: mr predict: interest_5 log-likelihood score: 16.6096404744368
+feature: position predict: interest_5 log-likelihood score: 16.6096404744368
+feature: britain predict: interest_5 log-likelihood score: 16.6096404744368
+feature: largely predict: interest_6 log-likelihood score: 16.6096404744368
+feature: incidents predict: interest_6 log-likelihood score: 16.6096404744368
+feature: edge predict: interest_6 log-likelihood score: 16.6096404744368
+feature: own predict: interest_5 log-likelihood score: 16.6096404744368
+feature: expect predict: interest_6 log-likelihood score: 16.6096404744368
+feature: transportation predict: interest_5 log-likelihood score: 16.6096404744368
+feature: stations predict: interest_5 log-likelihood score: 16.6096404744368
+feature: derived predict: interest_6 log-likelihood score: 16.6096404744368
+feature: follows predict: interest_5 log-likelihood score: 16.6096404744368
+feature: comparable predict: interest_6 log-likelihood score: 16.6096404744368
+feature: said predict: interest_6 log-likelihood score: 16.6096404744368
+feature: defaulted predict: interest_6 log-likelihood score: 16.6096404744368
+feature: has predict: interest_5 log-likelihood score: 3.24792751344359
+feature: its predict: interest_5 log-likelihood score: 3
+feature: are predict: interest_6 log-likelihood score: 2.58496250072116
+feature: on predict: interest_6 log-likelihood score: 2.58496250072116
+feature: that predict: interest_6 log-likelihood score: 2.58496250072116
+feature: with predict: interest_5 log-likelihood score: 2.32192809488736
+feature: a predict: interest_5 log-likelihood score: 2.08746284125034
+feature: in predict: interest_5 log-likelihood score: 2.06413033741972
+feature: million predict: interest_6 log-likelihood score: 2
+feature: as predict: interest_6 log-likelihood score: 2
+feature: from predict: interest_6 log-likelihood score: 1.58496250072116
+feature: increase predict: interest_6 log-likelihood score: 1.58496250072116
+feature: 10 predict: interest_6 log-likelihood score: 1.58496250072116
+feature: an predict: interest_5 log-likelihood score: 1.48542682717024
+feature: rose predict: interest_5 log-likelihood score: 1.32192809488736
+feature: which predict: interest_5 log-likelihood score: 1.32192809488736
+feature: have predict: interest_6 log-likelihood score: 1
+feature: to predict: interest_6 log-likelihood score: 1
+feature: will predict: interest_6 log-likelihood score: 1
+feature: up predict: interest_6 log-likelihood score: 1
+feature: is predict: interest_5 log-likelihood score: 1
+feature: for predict: interest_6 log-likelihood score: 1
+feature: their predict: interest_6 log-likelihood score: 1
+feature: but predict: interest_5 log-likelihood score: 0.584962500721156
+feature: the predict: interest_5 log-likelihood score: 0.53051471669878
+feature: and predict: interest_6 log-likelihood score: 0.459431618637297
+feature: of predict: interest_6 log-likelihood score: 0.447458976971221
+bash-3.2$ cat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-test.pl interest-n-decision-list.txt interest-n-test.txt > interest-n-answer.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Prain.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[C[37Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-eval.pl interest-n-key.txt interest-n-answer.txt [C[C[C[C[C[C[C[C[C[C[39Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+how many in: 121
+how many out:121
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_6"
+senseid="interest_5"
+bash-3.2$ cat interest-n-answer.txt [7@decision-list[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl interest-n-decision-list.txt interest-n-test.txt > interest-n-answer.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[20Prain.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[45Pcat interest-n-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl interest-n-train.txt > interest-n-decision-list.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[23Peval.pl line-key.txt line-answer.txt [C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33@./decision-list-eval.pl line-key.tx[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[33Pca[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C./decision-list-test.pl line-decision-list.txt line-test.txt > line-answer.txt[C[C[C[C[C[C[C[C[C[C[51Pcat line-decision-list.txt [C[C[C[C[C[C[C[C[C[C./decision-list-train.pl line-train.txt > line-decision-list.txt[C[C[C[C[C[C[C[C[C[Cexit[K./decision-list-eval.pl interest-n-key.txt interest-n-answer.txt 
+         interest_5 interest_6
+interest_5    26        26    
+interest_6    2        67    
+Total assigned: 121
+Correctly assigned: 93
+Accuracy: 0.768595041322314
+bash-3.2$ exit
+exit
+
+Script done on Wed Nov 18 12:59:44 2015
